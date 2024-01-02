@@ -1,5 +1,5 @@
 {% set name = "vprtempo" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/VPRTempo-{{ version }}.tar.gz
-  sha256: 2660af11c463893b22353967e7fc14b502b3b6d86331d66f47e33a43f11519aa
+  sha256: 84242faa479510bd63811c5165b14ec00fc04b102476b7577b905d23e3a6aea4
 
 build:
   noarch: python
