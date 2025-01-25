@@ -27,6 +27,7 @@ requirements:
     - tqdm
     - prettytable
     - matplotlib-base
+    - requests
 
 test:
   imports:
