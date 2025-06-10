@@ -28,6 +28,7 @@ requirements:
     - prettytable
     - matplotlib-base
     - requests
+    - imageio
 
 test:
   imports:
