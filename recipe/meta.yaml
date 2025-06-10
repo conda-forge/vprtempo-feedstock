@@ -1,5 +1,5 @@
 {% set name = "vprtempo" %}
-{% set version = "1.1.9" %}
+{% set version = "1.1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0bd68ed9045782a90df683e3ea34ef5cc1f838359d2c591800118569c3110bf2
+  sha256: 935babdf78b7df8f179c32b95c6b39a213903fd53d888837de9b58e9a091b128
 
 build:
   noarch: python
@@ -28,6 +28,7 @@ requirements:
     - prettytable
     - matplotlib-base
     - requests
+    - imageio
 
 test:
   imports:
